@@ -1,8 +1,42 @@
 h1{
 
+
+    /* Fonts releated Use cases */
+
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 60px;
     font-weight: bold;
-    /* font-style: oblique; */
-    /* background-color: rgb(49, 249, 249); */
+    color: rgb(5, 5, 5);
+
+    /* Color releated use cases: */
+    
+    /* background-color: rgba(15, 45, blue, alpha); */
+    /* background-color: #ffffff; */
+    /* background-color: hsl(hue, saturation, lightness); */
+    background-color: #F39607;
+}
+
+#firstPara{
+    font-size: 40px;
+    font-family: fantasy;
+    background-color: rgb(11, 153, 255);
+}
+
+.secondPara{
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(20, 45, 80);
+}
+
+.thirdPara, .fourthPara{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    background-color: #47CB00 ;
+    /* line-height: 80px; */
+
+
+}
+
+.fourthPara{
+    background-color: #F70052 ;
 }
