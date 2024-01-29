@@ -1,0 +1,42 @@
+html, body{
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+h1{
+    color: rgb(9, 170, 34);
+    /* background-color: rgb(165, 41, 57); */
+
+    border-style: solid;
+    /* border-style: dashed;
+    border-style: dotted;
+    border-style: double; */
+    border-width: 4px;
+    border-color: rgb(0, 238, 255);
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom: solid rgb(0, 238, 255 10px);
+    margin-bottom: 20px;
+
+}
+
+.paraOne{
+
+    border-width: 4px;
+    border-style: dashed;
+    border-color: rgb(167, 146, 146);
+    
+
+}
+.paraTwo{
+
+    border-style: dotted;
+    border-width: 5px;
+    border-color: rgb(152, 20, 155);
+
+}
+span{
+    border: double rgb(40, 80, 120) 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
