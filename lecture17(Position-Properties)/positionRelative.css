@@ -1,0 +1,16 @@
+.container{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+.yellowBox{
+    position: absolute;
+    top: 80%;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(220, 220, 16);
+}
+p{
+    color: bisque;
+}

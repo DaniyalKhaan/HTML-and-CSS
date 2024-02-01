@@ -1,0 +1,30 @@
+/* whenever you set a position of an element to absolute, it will go upper and  
+next element will come to its space */
+
+
+
+.blueBox{
+    
+    position: absolute;
+    /* after setting position to absolute the blackBox which is beneath this box will disappear, it will disl */
+    width: 200px;
+    height: 230px;
+    background-color: rgb(0, 0, 114);
+}
+.blackBox{
+    
+        /* position: absolute; */
+        width: 230px;
+        height: 250px;
+        background-color: black;
+}
+
+.yellowBox{
+        /* position: absolute; */
+        width: 200px;
+        height: 230px;
+        background-color: rgb(195, 195, 23);
+    
+}
+/* 
+One more point if we make all the elements absolute then the last element which have the absolute value will be on top */
