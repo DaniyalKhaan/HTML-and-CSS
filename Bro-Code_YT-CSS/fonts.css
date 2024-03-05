@@ -2,29 +2,21 @@ html, body{
 
     width: 100%;
     height: 100%;
-    background-color: #111111;
+    background-color: #ffffff;
 }
 
 h1{
-    color: rgb(171, 61, 61);
-    /* Some Stylish Fonts Families */
-    /* font-family: "Satisfy"; */
-    /* font-family: "Anton"; */
-    font-family: "Rubik Glitch Pop";
-    /* font-family: "Sixtyfour"; */
-    /* font-family: "Press Start 2P"; */
-    /* font-family: "Workbench"; */
+
     font-size: 50px;
-}
+    text-shadow: 2px 5px 11px rgb(12, 140, 226); /* Note that we can add multiple shadows like one for bottom another color for top etc To add multiple shadows add comma after all One shadow arguments(four argument) then , then four values for second shadow and so oon */
+    /* here in the arguments the first argument take input with px(pixels) for X positon of shadow 
+    the second argument take Y axis position from top to bottom
+    and third argument can setup the radius (space for shadow)
+    of the shadow 
+    the fourth argument will be color */
 
-p{
-    color: #09e017;
-    font-family: "Press Start 2P", sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 20px;
-    text-decoration: dotted underline;
-    text-decoration: wavy underline;
-    text-decoration: goldenrod wavy underline;
+    box-shadow: 8px 10px 2px black;
+
 
 }
+
